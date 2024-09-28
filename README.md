@@ -10,30 +10,30 @@ In this table, you can find the complete list of benchmarks we use in **SOS-Benc
 
 | **Benchmark Name**                  | **Reference**                                           | **Test Set Size** | **Metric**                | **Factor** | **Eval Codebase** |
 |---------------------------------|-----------------------------------------------------|---------------|-----------------------|--------|---------------|
-| LiveBench-Coding                | https://arxiv.org/abs/2406.19314                    | 130           | Exact Match Acc       | WK     | LiveBench     |
-| LiveBench-Data Analysis         | https://arxiv.org/abs/2406.19314                    | 150           | Exact Match Acc       | WK     | LiveBench     |
-| LiveBench-Instruction Following | https://arxiv.org/abs/2406.19314                    | 200           | Exact Match Acc       | IF     | LiveBench     |
-| LiveBench-Language              | https://arxiv.org/abs/2406.19314                    | 140           | Exact Match Acc       | WK     | LiveBench     |
-| LiveBench-Math                  | https://arxiv.org/abs/2406.19314                    | 230           | Exact Match Acc       | WK     | LiveBench     |
-| LiveBench-Reasoning             | https://arxiv.org/abs/2406.19314                    | 150           | Exact Match Acc       | WK     | LiveBench     |
-| IFEval                          | https://arxiv.org/abs/2311.07911                    | 540           | Avg of Custom Metrics | IF     | Eleuther      |
-| MATH Lvl 5                      | https://arxiv.org/abs/2103.03874                    | 1000          | Exact Match Acc       | WK     | Eleuther      |
-| MuSR                            | https://arxiv.org/abs/2310.16049                    | 750           | Acc                   | WK     | Eleuther      |
-| GPQA                            | https://arxiv.org/abs/2311.12022                    | 1250          | Acc                   | WK     | Eleuther      |
-| MMLU-Pro                        | https://arxiv.org/abs/2406.01574                    | 12000         | Acc                   | WK     | Eleuther      |
-| BBH                             | https://arxiv.org/abs/2210.09261                    | 6750          | Acc                   | WK     | Eleuther      |
-| BeaverTails                     | https://arxiv.org/abs/2307.04657                    | 1400          | Acc                   | Safety | Eleuther      |
+| LiveBench-Coding                | https://huggingface.co/datasets/livebench/coding                    | 130           | Exact Match Acc       | WK     | LiveBench     |
+| LiveBench-Data Analysis         | https://huggingface.co/datasets/livebench/data_analysis                    | 150           | Exact Match Acc       | WK     | LiveBench     |
+| LiveBench-Instruction Following | https://huggingface.co/datasets/livebench/instruction_following                    | 200           | Exact Match Acc       | IF     | LiveBench     |
+| LiveBench-Language              | https://huggingface.co/datasets/livebench/language                    | 140           | Exact Match Acc       | WK     | LiveBench     |
+| LiveBench-Math                  | https://huggingface.co/datasets/livebench/math                    | 230           | Exact Match Acc       | WK     | LiveBench     |
+| LiveBench-Reasoning             | https://huggingface.co/datasets/livebench/reasoning                    | 150           | Exact Match Acc       | WK     | LiveBench     |
+| IFEval                          | https://huggingface.co/datasets/google/IFEval                    | 540           | Avg of Custom Metrics | IF     | Eleuther      |
+| MATH Lvl 5                      | https://huggingface.co/datasets/AI-MO/aimo-validation-math-level-5                    | 1000          | Exact Match Acc       | WK     | Eleuther      |
+| MuSR                            | https://huggingface.co/datasets/TAUR-Lab/MuSR                    | 750           | Acc                   | WK     | Eleuther      |
+| GPQA                            | https://huggingface.co/datasets/Idavidrein/gpqa                    | 1250          | Acc                   | WK     | Eleuther      |
+| MMLU-Pro                        | https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro                    | 12000         | Acc                   | WK     | Eleuther      |
+| BBH                             | https://huggingface.co/datasets/maveriq/bigbenchhard                    | 6750          | Acc                   | WK     | Eleuther      |
+| BeaverTails                     | https://huggingface.co/datasets/PKU-Alignment/BeaverTails                    | 1400          | Acc                   | Safety | Eleuther      |
 | CDNA                            | https://huggingface.co/datasets/walledai/CDNA       | 2730          | Acc                   | Safety | Eleuther      |
 | DTToxicity                      | https://huggingface.co/datasets/walledai/DTToxicity | 4800          | Acc                   | Safety | Eleuther      |
-| JailbreakHub                    | https://arxiv.org/abs/2308.03825                    | 15100         | Acc                   | Safety | Eleuther      |
-| BBQ                             | https://arxiv.org/abs/2110.08193                    | 58500         | Acc                   | Safety | Eleuther      |
-| WMDP                            | https://arxiv.org/abs/2403.03218                    | 3670          | Inverse Acc           | Safety | Eleuther      |
-| XSTest                          | https://arxiv.org/abs/2308.01263                    | 450           | Acc                   | Safety | Eleuther      |
-| WildGuardTest                   | https://arxiv.org/abs/2406.18495                    | 1730          | Acc                   | Safety | Eleuther      |
-| Toxigen                         | https://arxiv.org/abs/2203.09509                    | 9900          | Acc                   | Safety | Eleuther      |
-| StrongREJECT                    | https://arxiv.org/abs/2402.10260                    | 310           | Acc                   | Safety | Eleuther      |
+| JailbreakHub                    | https://huggingface.co/datasets/walledai/JailbreakHub                    | 15100         | Acc                   | Safety | Eleuther      |
+| BBQ                             | https://huggingface.co/datasets/walledai/BBQ                    | 58500         | Acc                   | Safety | Eleuther      |
+| WMDP                            | https://huggingface.co/datasets/cais/wmdp                   | 3670          | Inverse Acc           | Safety | Eleuther      |
+| XSTest                          | https://huggingface.co/datasets/walledai/XSTest                    | 450           | Acc                   | Safety | Eleuther      |
+| WildGuardTest                   | https://huggingface.co/datasets/walledai/WildGuardTest                    | 1730          | Acc                   | Safety | Eleuther      |
+| Toxigen                         | https://huggingface.co/datasets/toxigen/toxigen-data                    | 9900          | Acc                   | Safety | Eleuther      |
+| StrongREJECT                    | https://huggingface.co/datasets/AlignmentResearch/StrongREJECT                    | 310           | Acc                   | Safety | Eleuther      |
 | SGXSTest                        | https://huggingface.co/datasets/walledai/SGXSTest   | 100           | Acc                   | Safety | Eleuther      |
-| SaladBench                      | https://arxiv.org/abs/2402.05044                    | 30400         | Acc                   | Safety | Eleuther      |
+| SaladBench                      | https://huggingface.co/datasets/walledai/SaladBench | 30400         | Acc                   | Safety | Eleuther      |
 
 # List of Artifacts in this Repository
 
